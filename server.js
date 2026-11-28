@@ -16,7 +16,7 @@ const HOST = '0.0.0.0';
 const WS_PATH = process.env.VLESS_PATH || '/vless';
 const UUID = process.env.VLESS_UUID || '11111111-2222-3333-4444-555555555555';
 const UUID_BYTES = Buffer.from(UUID.replace(/-/g, ''), 'hex');
-const NODE_NAME = '德国';
+const NODE_NAME = 'web';
 
 function flclashYaml(host) {
   return `proxies:
